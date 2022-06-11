@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    min-width: 100vh;
+    min-height: 100vh;    
+}
+
+.main {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr;
+}
+
+.sidebar {
+    display: grid;
+    border: 1px solid blue;
+    justify-items: center;
+    grid-template-rows: 0.5fr 1.5fr 3fr;
+}
+
+.content {
+    border: 1px solid red;;
+}
+
+li {
+    list-style: none;
+}
+
+.dashUl {
+    padding-left: 0;
+}
+
