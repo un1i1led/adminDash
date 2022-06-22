@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="dash">
         <h2>Dashboard</h2>
-        <ul>
+        <ul class="dash-ul">
             <li>Dashboard</li>
             <li>Home</li>
             <li>Profile</li>
@@ -18,7 +21,7 @@
             <li>Tasks</li>
             <li>Communities</li>
         </ul>
-        <ul id="second">
+        <ul class="dash-ul" id="second">
             <li>Settings</li>
             <li>Support</li>
             <li>Privacy</li>
@@ -48,17 +51,17 @@
             </div>
         </div>
         <div class="bottom">
-            <div class="projects">
-                <h2>Projects</h2>
+            <div class="grid">
+                <div class="projects">
+                    <h2 class="four-hundred">Projects</h2>
+                </div>
             </div>
-            <div class="announcements">
-                <h2>Announcements</h2>
-            </div>
-        </div>
-        <div class="last">
-            <div class="grid"></div>
             <div class="reel">
+                <div class="announcements">
+                    <h2 class="four-hundred not-centered">Announcements</h2>
+                </div>
                 <div class="announce"></div>
+                <h2 class="four-hundred not-centered" id="trend-word">Trending</h2>
                 <div class="trending"></div>
             </div>
         </div>
