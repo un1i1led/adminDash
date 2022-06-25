@@ -6,34 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="dash">
-        <h2>Dashboard</h2>
-        <hr>
-        <ul class="dash-ul">
-            <a href="">
-                <li>Dashboard</li>
-            </a>
-            <a href="">
-                <li>Home</li>
-            </a>
-            <a href="">
-                <li>Profile</li>
-            </a>
-            <a href="">
-                <li>Messages</li>
-            </a>
-            <a href="">
-                <li>Tasks</li>
-            </a>
-            <a href="">
-                <li>Communities</li>
-            </a>
-        </ul>
+        <h2 id="dashboard-big">Dashboard</h2>
+        <hr class="line">
+        <div class="whole-dash">
+            <div class="icon-dash">
+                <ul>
+                    <li>
+                        <img src="img/dashboard.png" class="dash-icon">
+                    </li>
+                    <li>
+                        <img src="img/dashboard.png" class="dash-icon">
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <ul class="dash-ul">
+                <a href="" class="dash-link">
+                    <li>Home</li>
+                </a>
+                <a href="">
+                    <li>Profile</li>
+                </a>
+                <a href="">
+                    <li>Messages</li>
+                </a>
+                <a href="">
+                    <li>History</li>
+                </a>
+                <a href="">
+                    <li>Tasks</li>
+                </a>
+                <a href="">
+                    <li>Communities</li>
+                </a>
+            </ul>
+        </div>
+        <hr class="line">
         <ul class="dash-ul" id="second">
             <a href="">
                 <li>Settings</li>
@@ -69,8 +85,12 @@
                         bell" id="bell">
                     </div>
                     <div class="user">
-                        <p>User</p>
-                        <img src="img/eye.svg" alt="" id="eye">
+                        <a href="">
+                            <p>User</p>
+                        </a>
+                        <a href="https://github.com/un1i1led"><img 
+                            src="img/eye.svg" alt="" id="eye">
+                        </a>
                     </div>
                 </div>
             </div>
